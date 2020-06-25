@@ -13,6 +13,5 @@ if(i % 3 == 0 && !(i % 5 == 0)){
   document.getElementById('lista').innerHTML += '<li class=\'violet\'>' + 'Fizz' + 'Buzz' + '</li>';
 } else{
   document.getElementById('lista').innerHTML += '<li>' + i + '</li>';
-  lista = '<li>' + i + '</li>';
 }
 }
