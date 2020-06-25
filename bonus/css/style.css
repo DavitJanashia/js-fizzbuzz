@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  /* DEBUG:  */
+  border:1px solid black;
+  /* padding:5px; */
+}
+
+body, html {
+  width: 100%;
+  height: 100vh;
+  font-family: arial, monospace;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+ul li{
+  display: flex;
+  justify-content: center;
+  margin: 4px;
+  width: 70px;
+  height: 30px;
+  align-items: center;
+  border-radius: 4px;
+
+}
+
+.green{
+  background-color: red;
+}
+
+.blue{
+  background-color: lightblue;
+}
+
+.violet{
+  background-color: violet;
+}
